@@ -37,20 +37,20 @@
       <div class="row">
         <div class="col-xs-6 col-md-6 col-sm-offset-3" style="margin-top:50px;">
             
-            <p class='text-justify attribute'><strong>Start Time: </strong>2024-07-29 06:08:20</p>
+            <p class='text-justify attribute'><strong>Start Time: </strong>2024-08-04 21:24:21</p>
             
         </div>
       </div>
       <div class="row">
         <div class="col-xs-6 col-md-6 col-sm-offset-3">
             
-            <p class='text-justify attribute'><strong>Stop Time: </strong>2024-07-29 13:40:23</p>
+            <p class='text-justify attribute'><strong>Stop Time: </strong>2024-08-05 04:56:20</p>
             
         </div>
       </div>
       <div class="row">
         <div class="col-xs-6 col-md-6 col-sm-offset-3">
-           <p class='text-justify attribute'><strong>Duration: </strong>6h 9 min</p>
+           <p class='text-justify attribute'><strong>Duration: </strong>6h 17 min</p>
         </div>
       </div>
       </div>
@@ -234,11 +234,11 @@
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="passClass">
         <td>TestBackupMetadata</td>
         <td class="text-center">21</td>
-        <td class="text-center">20</td>
-        <td class="text-center">1</td>
+        <td class="text-center">21</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
@@ -248,33 +248,11 @@
 
     
     
-        <tr id="ft2.1" class="none bg-danger">
+        <tr id='pt2.1' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestBackupMetadata - test_backup_all</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft2.1')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft2.1" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft2.1').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_backup_metadata.py&#34;, line 69, in test_backup_all
-    self.assertEqual(tasks[-1][&#39;result&#39;], &#34;Failed&#34;)
-AssertionError: &#39;Finished&#39; != &#39;Failed&#39;
-- Finished
-+ Failed</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -484,12 +462,12 @@ AssertionError: &#39;Finished&#39; != &#39;Failed&#39;
     
 
 
-    <tr id="su" class="errorClass">
+    <tr id="su" class="passClass">
         <td>TestCli</td>
         <td class="text-center">13</td>
-        <td class="text-center">11</td>
+        <td class="text-center">13</td>
         <td class="text-center">0</td>
-        <td class="text-center">2</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
             <a onclick="showClassDetail('c4', 13)">Detail</a>
@@ -588,31 +566,11 @@ AssertionError: &#39;Finished&#39; != &#39;Failed&#39;
     
     
     
-        <tr id="et4.11" class="none bg-info">
+        <tr id='pt4.11' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestCli - test_no_database</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_et4.11')">ERROR</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_et4.11" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_et4.11').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_cli.py&#34;, line 602, in test_no_database
-    os.rmdir(alt_location)
-OSError: [Errno 39] Directory not empty: &#39;/home/ozzie/Dusty/script/alternate&#39;</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -626,53 +584,22 @@ OSError: [Errno 39] Directory not empty: &#39;/home/ozzie/Dusty/script/alternate
     
     
     
-        <tr id="et4.13" class="none bg-info">
+        <tr id='pt4.13' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestCli - test_writeonly_static_files</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_et4.13')">ERROR</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_et4.13" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_et4.13').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_cli.py&#34;, line 732, in test_writeonly_static_files
-    self.driver.get(&#34;http://127.0.0.1:&#34; + PORTS[0])
-  File &#34;/home/ozzie/Development/calibre-web-test/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py&#34;, line 449, in get
-    self.execute(Command.GET, {&#34;url&#34;: url})
-  File &#34;/home/ozzie/Development/calibre-web-test/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py&#34;, line 440, in execute
-    self.error_handler.check_response(response)
-  File &#34;/home/ozzie/Development/calibre-web-test/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py&#34;, line 245, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: Navigation timed out after 300000 ms
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
-TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:740:5
-bail@chrome://remote/content/marionette/sync.sys.mjs:211:19</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
 
 
-    <tr id="su" class="errorClass">
+    <tr id="su" class="passClass">
         <td>TestCliGdrivedb</td>
         <td class="text-center">4</td>
-        <td class="text-center">3</td>
+        <td class="text-center">4</td>
         <td class="text-center">0</td>
-        <td class="text-center">1</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
             <a onclick="showClassDetail('c5', 4)">Detail</a>
@@ -708,31 +635,11 @@ bail@chrome://remote/content/marionette/sync.sys.mjs:211:19</pre>
     
     
     
-        <tr id="et5.4" class="none bg-info">
+        <tr id='pt5.4' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestCliGdrivedb - test_no_database</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_et5.4')">ERROR</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_et5.4" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_et5.4').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_cli_gdrive.py&#34;, line 283, in test_no_database
-    os.rmdir(alt_location)
-OSError: [Errno 39] Directory not empty: &#39;/home/ozzie/Dusty/script/alternate&#39;</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -1107,11 +1014,11 @@ OSError: [Errno 39] Directory not empty: &#39;/home/ozzie/Dusty/script/alternate
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="skipClass">
         <td>TestEditAdditionalBooks</td>
         <td class="text-center">20</td>
-        <td class="text-center">17</td>
-        <td class="text-center">1</td>
+        <td class="text-center">18</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">2</td>
         <td class="text-center">
@@ -1282,31 +1189,11 @@ OSError: [Errno 39] Directory not empty: &#39;/home/ozzie/Dusty/script/alternate
     
     
     
-        <tr id="ft12.17" class="none bg-danger">
+        <tr id='pt12.17' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditAdditionalBooks - test_writeonly_path</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft12.17')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft12.17" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft12.17').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_additional_books.py&#34;, line 417, in test_writeonly_path
-    self.assertTrue(self.check_element_on_page((By.ID, &#34;flash_danger&#34;)))
-AssertionError: False is not true</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -1730,11 +1617,11 @@ AssertionError: False is not true</pre>
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="passClass">
         <td>TestEditAuthors</td>
         <td class="text-center">9</td>
-        <td class="text-center">5</td>
-        <td class="text-center">4</td>
+        <td class="text-center">9</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
@@ -1753,118 +1640,38 @@ AssertionError: False is not true</pre>
     
     
     
-        <tr id="ft14.2" class="none bg-danger">
+        <tr id='pt14.2' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditAuthors - test_change_capital_one_author_one_book</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft14.2')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft14.2" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft14.2').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_books_author.py&#34;, line 62, in test_change_capital_one_author_one_book
-    self.assertFalse(os.path.isdir(os.path.join(TEST_DB, &#39;Leo Baskerville&#39;)))
-AssertionError: True is not false</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
     
-        <tr id="ft14.3" class="none bg-danger">
+        <tr id='pt14.3' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditAuthors - test_change_capital_one_author_two_books</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft14.3')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft14.3" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft14.3').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_books_author.py&#34;, line 111, in test_change_capital_one_author_two_books
-    self.assertFalse(os.path.isdir(os.path.join(TEST_DB, &#39;Peter Parker&#39;)))
-AssertionError: True is not false</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
     
-        <tr id="ft14.4" class="none bg-danger">
+        <tr id='pt14.4' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditAuthors - test_change_capital_one_author_two_books_coauthor</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft14.4')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft14.4" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft14.4').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_books_author.py&#34;, line 164, in test_change_capital_one_author_two_books_coauthor
-    self.assertFalse(os.path.isdir(os.path.join(TEST_DB, &#39;Norbert Halagal&#39;)))
-AssertionError: True is not false</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
     
-        <tr id="ft14.5" class="none bg-danger">
+        <tr id='pt14.5' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditAuthors - test_change_capital_rename_co_author</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft14.5')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft14.5" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft14.5').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_books_author.py&#34;, line 294, in test_change_capital_rename_co_author
-    self.assertFalse(os.path.isdir(os.path.join(TEST_DB, &#39;Hector Gonçalves&#39;)))
-AssertionError: True is not false</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -2080,11 +1887,11 @@ AssertionError: True is not false</pre>
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="passClass">
         <td>TestEditBooksList</td>
         <td class="text-center">19</td>
-        <td class="text-center">18</td>
-        <td class="text-center">1</td>
+        <td class="text-center">19</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
@@ -2193,31 +2000,11 @@ AssertionError: True is not false</pre>
     
     
     
-        <tr id="ft17.12" class="none bg-danger">
+        <tr id='pt17.12' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestEditBooksList - test_bookslist_edit_languages</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft17.12')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft17.12" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft17.12').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_edit_books_list.py&#34;, line 230, in test_bookslist_edit_languages
-    self.assertTrue(&#34;+&#34; in self.check_element_on_page((By.XPATH,
-AssertionError: False is not true</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -4134,50 +3921,43 @@ IndexError: list index out of range</pre>
     
 
 
-    <tr id="su" class="errorClass">
-        <td>_FailedTest</td>
-        <td class="text-center">1</td>
+    <tr id="su" class="passClass">
+        <td>TestPipInstall</td>
+        <td class="text-center">3</td>
+        <td class="text-center">3</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
-        <td class="text-center">1</td>
         <td class="text-center">0</td>
         <td class="text-center">
-            <a onclick="showClassDetail('c41', 1)">Detail</a>
+            <a onclick="showClassDetail('c41', 3)">Detail</a>
         </td>
     </tr>
 
     
     
-        <tr id="et41.1" class="none bg-info">
+        <tr id='pt41.1' class='hiddenRow bg-success'>
             <td>
-                <div class='testcase'>_FailedTest - test_pip_install</div>
+                <div class='testcase'>TestPipInstall - test_command_start</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_et41.1')">ERROR</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_et41.1" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_et41.1').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">ImportError: Failed to import test module: test_pip_install
-Traceback (most recent call last):
-  File &#34;/usr/lib/python3.10/unittest/loader.py&#34;, line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File &#34;/usr/lib/python3.10/unittest/loader.py&#34;, line 377, in _get_module_from_name
-    __import__(name)
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_pip_install.py&#34;, line 14, in &lt;module&gt;
-    from build_release import make_release
-ModuleNotFoundError: No module named &#39;build_release&#39;</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
+            <td colspan='6' align='center'>PASS</td>
+        </tr>
+    
+    
+    
+        <tr id='pt41.2' class='hiddenRow bg-success'>
+            <td>
+                <div class='testcase'>TestPipInstall - test_foldername_database_location</div>
             </td>
+            <td colspan='6' align='center'>PASS</td>
+        </tr>
+    
+    
+    
+        <tr id='pt41.3' class='hiddenRow bg-success'>
+            <td>
+                <div class='testcase'>TestPipInstall - test_module_start</div>
+            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -4270,11 +4050,11 @@ ModuleNotFoundError: No module named &#39;build_release&#39;</pre>
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="passClass">
         <td>TestReadOnlyDatabase</td>
         <td class="text-center">1</td>
-        <td class="text-center">0</td>
         <td class="text-center">1</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
@@ -4284,31 +4064,11 @@ ModuleNotFoundError: No module named &#39;build_release&#39;</pre>
 
     
     
-        <tr id="ft43.1" class="none bg-danger">
+        <tr id='pt43.1' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestReadOnlyDatabase - test_readonly_path</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft43.1')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft43.1" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft43.1').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_readonly_db.py&#34;, line 76, in test_readonly_path
-    self.assertTrue(self.check_element_on_page((By.ID, &#34;flash_danger&#34;)))
-AssertionError: False is not true</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
@@ -4754,11 +4514,11 @@ AssertionError: False is not true</pre>
     
 
 
-    <tr id="su" class="failClass">
+    <tr id="su" class="passClass">
         <td>TestThumbnailsEnv</td>
         <td class="text-center">1</td>
-        <td class="text-center">0</td>
         <td class="text-center">1</td>
+        <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">0</td>
         <td class="text-center">
@@ -4768,41 +4528,21 @@ AssertionError: False is not true</pre>
 
     
     
-        <tr id="ft50.1" class="none bg-danger">
+        <tr id='pt50.1' class='hiddenRow bg-success'>
             <td>
                 <div class='testcase'>TestThumbnailsEnv - test_cover_cache_env_on_database_change</div>
             </td>
-            <td colspan='6'>
-                <div class="text-center">
-                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft50.1')">FAIL</a>
-                </div>
-                <!--css div popup start-->
-                <div id="div_ft50.1" class="popup_window test_output" style="display:block;">
-                    <div class='close_button pull-right'>
-                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
-                                onclick="document.getElementById('div_ft50.1').style.display='none'"><span
-                                aria-hidden="true">&times;</span></button>
-                    </div>
-                    <div class="text-left pull-left">
-                        <pre class="text-left">Traceback (most recent call last):
-  File &#34;/home/ozzie/Development/calibre-web-test/test/test_thumbnail_env.py&#34;, line 71, in test_cover_cache_env_on_database_change
-    self.assertEqual(count_files(thumbnail_cache_path), 110*2)
-AssertionError: 69 != 220</pre>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--css div popup end-->
-            </td>
+            <td colspan='6' align='center'>PASS</td>
         </tr>
     
     
 
 
-    <tr id="su" class="skipClass">
+    <tr id="su" class="failClass">
         <td>TestThumbnails</td>
         <td class="text-center">8</td>
-        <td class="text-center">7</td>
-        <td class="text-center">0</td>
+        <td class="text-center">6</td>
+        <td class="text-center">1</td>
         <td class="text-center">0</td>
         <td class="text-center">1</td>
         <td class="text-center">
@@ -4875,11 +4615,31 @@ AssertionError: 69 != 220</pre>
     
     
     
-        <tr id='pt51.8' class='hiddenRow bg-success'>
+        <tr id="ft51.8" class="none bg-danger">
             <td>
                 <div class='testcase'>TestThumbnails - test_sideloaded_book</div>
             </td>
-            <td colspan='6' align='center'>PASS</td>
+            <td colspan='6'>
+                <div class="text-center">
+                    <a class="popup_link text-center" onfocus='blur()' onclick="showTestDetail('div_ft51.8')">FAIL</a>
+                </div>
+                <!--css div popup start-->
+                <div id="div_ft51.8" class="popup_window test_output" style="display:block;">
+                    <div class='close_button pull-right'>
+                        <button type="button" class="close" aria-label="Close" onfocus="this.blur();"
+                                onclick="document.getElementById('div_ft51.8').style.display='none'"><span
+                                aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="text-left pull-left">
+                        <pre class="text-left">Traceback (most recent call last):
+  File &#34;/home/ozzie/Development/calibre-web-test/test/test_thumbnails.py&#34;, line 316, in test_sideloaded_book
+    self.assertAlmostEqual(diff(BytesIO(list_cover), BytesIO(old_list_cover), delete_diff_file=True), 0.0,
+AssertionError: 0.005925365701836291 != 0.0 within 0.0001 delta (0.005925365701836291 difference)</pre>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--css div popup end-->
+            </td>
         </tr>
     
     
@@ -5962,10 +5722,10 @@ AssertionError: 69 != 220</pre>
 
     <tr id='total_row' class="text-center bg-grey">
         <td>Total</td>
-        <td>508</td>
-        <td>484</td>
-        <td>9</td>
-        <td>5</td>
+        <td>510</td>
+        <td>498</td>
+        <td>1</td>
+        <td>1</td>
         <td>10</td>
         <td>&nbsp;</td>
     </tr>
@@ -6162,7 +5922,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestBackupMetadataGdrive</td>
             </tr>
           
@@ -6192,7 +5952,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestCliGdrivedb</td>
             </tr>
           
@@ -6222,7 +5982,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestEbookConvertCalibreGDrive</td>
             </tr>
           
@@ -6252,7 +6012,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestEbookConvertGDriveKepubify</td>
             </tr>
           
@@ -6300,7 +6060,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestEditAuthorsGdrive</td>
             </tr>
           
@@ -6336,7 +6096,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestEditBooksOnGdrive</td>
             </tr>
           
@@ -6378,7 +6138,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestEmbedMetadataGdrive</td>
             </tr>
           
@@ -6408,7 +6168,7 @@ AssertionError: 69 != 220</pre>
           
             <tr>
               <th>google-api-python-client</th>
-              <td>2.138.0</td>
+              <td>2.139.0</td>
               <td>TestSetupGdrive</td>
             </tr>
           
@@ -6498,7 +6258,7 @@ AssertionError: 69 != 220</pre>
 </div>
 
 <script>
-    drawCircle(484, 9, 5, 10);
+    drawCircle(498, 1, 1, 10);
     showCase(5);
 </script>
 
